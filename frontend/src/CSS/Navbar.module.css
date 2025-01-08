@@ -1,0 +1,78 @@
+.home,
+.about {
+  transition: all 0.3s ease-in-out;
+}
+
+.home:hover,
+.about:hover {
+  color: blueviolet !important;
+  /* margin: 0px 15px; */
+  transform: scale(1.2);
+
+}
+
+.signUp {
+  transition: all 0.s ease-in-out;
+
+}
+
+.signUp:hover {
+  background-color: blueviolet;
+}
+
+.drop {
+  background-color: rgba(0, 0, 0, 0.668) !important;
+}
+
+.shop,
+.search {
+  font-size: 15px;
+  margin: 0px 2px;
+}
+
+.offcanvas {
+  background-color: rgba(4, 0, 10, 0.819) !important;
+}
+
+.x {
+  color: red;
+}
+
+
+.iconclose {
+  width: 10%;
+  font-size: 15px;
+}
+
+.logo {
+  transition: all 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+  translate: -50%;
+}
+
+form .search,
+form .cart {
+  transition: all 0.3s ease-in-out;
+}
+
+form .search:hover,
+form .cart:hover {
+  transform: scale(1.4);
+  margin: 0px 3px;
+}
+
+.login {
+  transform: scale(0.5);
+}
+
+.searchtost {
+  max-width: 60%;
+}
+
+.header {
+  box-shadow: 0px 0px 10px 1.5px rgba(0, 0, 0, 0.666);
+  background-color: rgba(4, 0, 10, 0.819);
+}

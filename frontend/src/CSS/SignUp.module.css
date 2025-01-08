@@ -1,0 +1,16 @@
+.signin {
+  color: red;
+  cursor: pointer;
+}
+
+.radio {
+  float: left !important;
+  width: 30% !important;
+  color: white;
+}
+
+.hero {
+  background-image: url('../../public/assets/background/cat-4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}

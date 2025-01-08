@@ -1,0 +1,14 @@
+.admin {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 36rem;
+}
+
+.background {
+  background-image: url('../../assets/background/adminbg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

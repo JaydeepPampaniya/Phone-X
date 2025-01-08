@@ -1,0 +1,38 @@
+.userMain {
+  position: fixed;
+  top: 10%;
+  left: 70%;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  padding: 30px 30px 0px 30px;
+  box-shadow: 0px 0px 40px 4000px rgba(0, 0, 0, 0.425);
+  border-radius: 20px;
+  transition: all ease-in-out 1s;
+}
+@media (min-width: 630px) and (max-width: 1100px) {
+  .userMain {
+    top: 10%;
+    left: 62%;
+  }
+}
+
+@media (min-width: 630px) and (max-width: 850px) {
+  .userMain {
+    top: 10%;
+    left: 50%;
+  }
+}
+
+@media (min-width: 440px) and (max-width: 630px) {
+  .userMain {
+    top: 10%;
+    left: 25%;
+  }
+}
+@media only screen and (max-width: 440px) {
+    .userMain {
+      top: 10%;
+      left: 7%;
+    }
+  }

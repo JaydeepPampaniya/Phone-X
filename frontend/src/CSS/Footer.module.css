@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+.footer {
+  width: 97%;
+  margin-left: 10px;
+}
+
+.contact a {
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s ease-in-out;
+  line-height: 40px;
+}
+
+.contact a:hover {
+  color: blueviolet !important;
+  transform: scaleX(1.05);
+}
+
+.payment {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.paymentcards img {
+  width: 4%;
+  margin: 0px 10px;
+}
+
+.paymentcards {
+  width: 90%;
+  text-align: right;
+}
+
+.logo {
+  width: 10%;
+}
+
+.logo a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+@media only screen and (max-width:600px) {
+  .paymentcards img {
+    width: 8vw;
+
+  }
+}
