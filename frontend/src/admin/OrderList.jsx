@@ -98,7 +98,7 @@ const OrderList = () =>{
           </tbody>
         </table>
       </div>
-      <ToastContainer />
+      
       {loading && <LoadingSpinner />}
     </>
   );

@@ -5,7 +5,7 @@ import axios from "axios";
 import React, { useState, useEffect, useContext } from "react";
 import { RiDeleteBin5Fill } from "react-icons/ri";
 import LoadingSpinner from "./LoadingSpinner";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 import { toastStyle } from "../Constant/general";
 import EmptyBagItem from "./EmptyBagItem";
 import {BagContext} from "../Context/ContextProvider";
@@ -186,7 +186,6 @@ const Bag = () => {
           </div>
         </div>
       </div>
-      <ToastContainer />
       {loading && <LoadingSpinner />}  
     </>
   );

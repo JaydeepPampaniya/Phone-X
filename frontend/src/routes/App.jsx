@@ -22,6 +22,7 @@ import Search from "../componnents/Search";
 import 'react-toastify/dist/ReactToastify.css';
 import 'animate.css';
 import ContextProvider from "../Context/ContextProvider";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
             <Route path="/Admin/AdminMiddle" element={<AdminMiddle />}></Route>
           </Route>
         </Routes>
+        <ToastContainer />
       </BrowserRouter>
     </ContextProvider>
   );

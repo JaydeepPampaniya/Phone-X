@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import axios from "axios";
 import { useState } from "react";
 import cookies from "js-cookie";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 import { toastStyle } from "../Constant/general";
 import LoadingSpinner from "./LoadingSpinner";
 
@@ -256,7 +256,6 @@ const Delivery = () => {
           ₹ Pay {Math.round(totalMRP)}
         </button>
       </div>
-      <ToastContainer />
       {loading && <LoadingSpinner />}
     </>
   );

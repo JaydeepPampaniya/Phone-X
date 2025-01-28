@@ -196,7 +196,7 @@ const AddItem = ()=> {
           Submit
         </button>
       </div>
-      <ToastContainer />
+      
       {loading && <LoadingSpinner />}
     </>
   );

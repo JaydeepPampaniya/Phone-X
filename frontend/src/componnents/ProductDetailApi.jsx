@@ -5,7 +5,7 @@ import { GrAddCircle } from "react-icons/gr";
 import LoadingSpinner from "./LoadingSpinner";
 import cookies from "js-cookie";
 import { AiFillDelete } from "react-icons/ai";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 import { toastStyle } from "../Constant/general";
 import { BagContext } from "../Context/ContextProvider";
 
@@ -166,7 +166,6 @@ function ProductDetailApi() {
           </div>
         </div>
       </div>
-      <ToastContainer />
       {loading && <LoadingSpinner />}
     </>
   );

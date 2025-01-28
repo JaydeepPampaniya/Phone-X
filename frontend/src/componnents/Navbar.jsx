@@ -296,7 +296,7 @@ const Navbar = ()=> {
         </div>
       </div>
       {loading && <LoadingSpinner />}
-      <ToastContainer />
+      
       {seeUserDetails && (
         <UserDetails
           users={users}

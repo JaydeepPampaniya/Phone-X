@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 import { toastStyle } from "../Constant/general";
 
 const generateRandomCode = () => {
@@ -80,7 +80,6 @@ const Captcha = () => {
           Submit
         </button>
       </div>
-      <ToastContainer />
     </>
   );
 };

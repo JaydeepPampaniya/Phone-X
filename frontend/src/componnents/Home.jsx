@@ -173,7 +173,6 @@ const Home = () => {
           </div>
         ))}
       </div>
-      <ToastContainer />
       {loading && <LoadingSpinner />}
     </>
   );

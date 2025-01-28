@@ -169,7 +169,7 @@ function SignUp() {
         </div>
       </div>
       {loading && <LoadingSpinner />}
-      <ToastContainer />
+      
     </>
   );
 }

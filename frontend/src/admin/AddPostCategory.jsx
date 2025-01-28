@@ -79,7 +79,7 @@ const AddPostCategory = () => {
           </button>
         </div>
       </div>
-      <ToastContainer />
+      
       {loading && <LoadingSpinner />}
     </>
   );

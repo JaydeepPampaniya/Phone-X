@@ -5,7 +5,7 @@ import { useState } from "react";
 import { FcDecision } from "react-icons/fc";
 import manavtar from "../../public/assets/background/manavtar.png";
 import womenavtar from "../../public/assets/background/womenavtar.jpg";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 import { toastStyle } from "../Constant/general";
 import LoadingSpinner from "./LoadingSpinner";
 
@@ -137,7 +137,7 @@ const EditUser = () => {
         </div>
       ))}
       {loading && <LoadingSpinner />}
-      <ToastContainer />
+     
     </>
   );
 };
